@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     "djoser",
     # my apps
     "core",
+    "utils",
 ]
 
 MIDDLEWARE = [
