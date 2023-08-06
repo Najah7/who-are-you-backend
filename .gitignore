@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+dist/
+build/
+eggs/
+*.egg-info/
+*.egg
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# IDE / Editor specific
+.idea/
+.vscode/
+*.pyc
+*.pyo
+*.sage.py
+
+# Local development settings
+*.env
+
+# Development and testing databases
+*.sqlite3
+
+# Test coverage results
+htmlcov/
+.coverage
+
+# Translation files
+*.mo
+*.pot
+
+# Cache and logs
+*.log
+.cache/
+logs/
+
+# Temporary files
+*.tmp
+
+# Jupyter Notebook specific
+.ipynb_checkpoints/
+
+migrations/
