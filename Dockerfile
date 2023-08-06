@@ -12,7 +12,7 @@ WORKDIR /app
 EXPOSE 8000
 
 RUN apt-get update \
-    && apt-get install -y --no-install-recommends gcc \
+    && apt-get install -y --no-install-recommends gcc libzbar0 \ 
     && pip install --upgrade pip \
     && pip install --no-cache-dir -r /tmp/requirements.txt \
     && apt-get remove -y gcc \
