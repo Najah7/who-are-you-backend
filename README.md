@@ -1,6 +1,9 @@
 # Who ara you （backend）
 
 ## コマンドメモ（for myself）
-- `sorce venv/bin/activate`
+- `source venv/bin/activate`
 - `deactivate`
-- `pip pip freeze > requirements.txt`
+- `pip freeze > requirements.txt`
+
+## 注意点ノート
+- 絶対マイグレートションはcoreから。（デフォルトのユーザを作る前にカスタムユーザを作成する必要あり。）
