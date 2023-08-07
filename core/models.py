@@ -70,7 +70,7 @@ class SNS(models.Model):
         return f"SNS of {self.user.name}"
     
     
-class Others(models.Model):
+class Other(models.Model):
     """Other SNS accounts"""
     sns = models.ForeignKey(
         SNS,
