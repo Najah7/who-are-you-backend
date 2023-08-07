@@ -8,6 +8,7 @@ urlpatterns = [
     # 管理者 or 開発者用 
     path("admin/", admin.site.urls),
     # 認証用
-    path('', include('djoser.urls.authtoken'))
+    path('', include('djoser.urls.authtoken')),
+    path("signup/", include("signup.urls")),
 ]
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
